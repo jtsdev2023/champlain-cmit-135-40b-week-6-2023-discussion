@@ -10,5 +10,11 @@ class HogwartsStudent:
         self.student_name_first = kwargs['name_first']
         self.student_values = kwargs['student_values']
 
-    def sorting_hat_sort_students(self):
+    def age(self):
+        """A method to calcuate student age"""
         ...
+
+
+def hogwarts_sorting_hat():
+    """A Hogwarts Sorting Hat function"""
+    ...
